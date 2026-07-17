@@ -29,7 +29,21 @@ const products = [
   { id: 27, name: "Bulldog Inglés", category: "Perritos", price: 20, image: "bulldog ingles.png", featured: 27, description: "Perrito Bulldog Inglés articulado impreso en 3D." },
   { id: 28, name: "Basset Hound", category: "Perritos", price: 20, image: "orejotas.png", featured: 28, description: "Perrito Basset Hound articulado impreso en 3D." },
   { id: 29, name: "Border Collie", category: "Perritos", price: 20, image: "bordercollie.png", featured: 29, description: "Perrito Border Collie articulado impreso en 3D." },
-  { id: 30, name: "Gran Danés", category: "Perritos", price: 20, image: "grandanes2.png", featured: 30, description: "Perrito Gran Danés articulado impreso en 3D." }
+  { id: 30, name: "Gran Danés", category: "Perritos", price: 20, image: "grandanes2.png", featured: 30, description: "Perrito Gran Danés articulado impreso en 3D." },
+
+  { id: 31, name: "Agente Banano", category: "Armables", price: 150, image: "agente-banano.jpeg", featured: 31, description: "Figura armable y articulada impresa en 3D." },
+  { id: 32, name: "Capitán América", category: "Armables", price: 150, image: "capitan-america.jpeg", featured: 32, description: "Figura armable y articulada con escudo, impresa en 3D." },
+  { id: 33, name: "Deadpool", category: "Armables", price: 150, image: "deadpool.jpeg", featured: 33, description: "Figura armable y articulada impresa en 3D." },
+  { id: 34, name: "Deku", category: "Armables", price: 150, image: "deku.jpeg", featured: 34, description: "Figura armable y articulada impresa en 3D." },
+  { id: 35, name: "Iron Man", category: "Armables", price: 150, image: "iron-man.jpeg", featured: 35, description: "Figura armable y articulada impresa en 3D." },
+  { id: 36, name: "Dummy", category: "Armables", price: 150, image: "dummy.jpeg", featured: 36, description: "Figura base armable y articulada impresa en 3D." },
+  { id: 37, name: "Freddy", category: "Armables", price: 150, image: "freddy.jpeg", featured: 37, description: "Figura armable y articulada impresa en 3D." },
+  { id: 38, name: "Gojo", category: "Armables", price: 150, image: "gojo.jpeg", featured: 38, description: "Figura armable y articulada impresa en 3D." },
+  { id: 39, name: "Groot", category: "Armables", price: 150, image: "groot.jpeg", featured: 39, description: "Figura armable y articulada impresa en 3D." },
+  { id: 40, name: "Halo", category: "Armables", price: 150, image: "halo.jpeg", featured: 40, description: "Figura armable y articulada impresa en 3D." },
+  { id: 41, name: "Skull Trooper", category: "Armables", price: 150, image: "skull-trooper.jpeg", featured: 41, description: "Figura armable y articulada impresa en 3D." },
+  { id: 42, name: "Spider-Man", category: "Armables", price: 150, image: "spiderman.jpeg", featured: 42, description: "Figura armable y articulada impresa en 3D." },
+  { id: 43, name: "Wolverine", category: "Armables", price: 150, image: "wolverine.jpeg", featured: 43, description: "Figura armable y articulada impresa en 3D." }
 ];
 
 const state = { category: "Todos", search: "", sort: "featured", selected: null, quantity: 1, cart: [] };
